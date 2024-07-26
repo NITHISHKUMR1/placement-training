@@ -1,0 +1,6 @@
+x = int(input("Enter the number first value:"))
+y= int(input("Enter the number second value:"))
+z=x//y
+d=x/y
+print(z)
+print(d)
