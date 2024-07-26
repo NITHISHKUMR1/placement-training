@@ -1,0 +1,17 @@
+x = int(input( ))
+y = int(input( ))
+op = input("Enter any of these char for specific operation +,-,*,/: ")
+
+res = 0
+if op == '+':
+    res = x + y
+elif op == '-':
+    res = x - y
+elif op == '*':
+    res = x* y
+elif op  == '/':
+    res = x / y
+else:
+    print("Input character is not recognized!")
+
+print(x, op, y, ":", res)
