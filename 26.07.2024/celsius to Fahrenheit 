@@ -1,0 +1,3 @@
+x = int(input("Enter the celsius value: " ))
+y = (x * 9/5) + 32
+print(y)
