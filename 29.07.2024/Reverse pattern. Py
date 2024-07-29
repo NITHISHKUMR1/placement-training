@@ -1,0 +1,7 @@
+def t(rs):
+    for i in range(rs, 0, -1):
+        print('*' * i)
+
+# Example usage
+num= int(input("Enter the number of rows for the reverse triangle: "))
+t(num)
