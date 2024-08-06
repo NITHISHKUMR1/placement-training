@@ -1,0 +1,7 @@
+eb=int(input("Enter unit "))
+if eb<=100:
+    print("No charge")
+elif eb>=100 and a<=200:
+    print((a-100)*5)
+elif eb>200:
+    print((a-200)*10+100*5)
